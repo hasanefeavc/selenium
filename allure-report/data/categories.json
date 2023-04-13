@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "target frame detached\n  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\n  (Session info: chrome=110.0.5481.77)\nBuild info: version: '4.8.3', revision: 'e5e76298c3'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [53e68fdb0342a748b9c0c699c4740333, findElement {using=xpath, value=//input[@class='gLFyf']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.0jxfLS}, goog:chromeOptions: {debuggerAddress: localhost:38155}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38155/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53e68fdb0342a748b9c0c699c4740333",
+      "children" : [ {
+        "name" : "googlesearch",
+        "uid" : "43cb912701244bdf",
+        "parentUid" : "503949fc275c812b70972c0defa42592",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681278978457,
+          "stop" : 1681278999029,
+          "duration" : 20572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "503949fc275c812b70972c0defa42592"
+    }, {
+      "name" : "Unable to find element with locator By.xpath: //input[@class='gLFyf']\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.8.3', revision: 'e5e76298c3'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-38-generic', java.version: '11.0.18'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "googlesearch2",
+        "uid" : "db8f16b13d1f3ee2",
+        "parentUid" : "c1e33ba107646baada02d47cf8d87200",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681278999064,
+          "stop" : 1681279024031,
+          "duration" : 24967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1e33ba107646baada02d47cf8d87200"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

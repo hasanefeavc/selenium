@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Apr 12 08:56:18 TRT 2023","Wed Apr 12 08:56:39 TRT 2023","20572","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","googlesearch","googlesearch",""
+"passed","Wed Apr 12 08:56:07 TRT 2023","Wed Apr 12 08:56:18 TRT 2023","10908","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","amazonsearch","amazonsearch",""
+"broken","Wed Apr 12 08:56:39 TRT 2023","Wed Apr 12 08:57:04 TRT 2023","24967","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","googlesearch2","googlesearch2",""

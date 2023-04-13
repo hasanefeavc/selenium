@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 12 13:39:31 UTC 2023","Wed Apr 12 13:39:33 UTC 2023","2405","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","googlesearch2","googlesearch2",""
+"broken","Wed Apr 12 13:39:26 UTC 2023","Wed Apr 12 13:39:30 UTC 2023","4031","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","googlesearch","googlesearch",""
+"passed","Wed Apr 12 13:39:01 UTC 2023","Wed Apr 12 13:39:26 UTC 2023","25394","Default Suite","firstseleniumproject","seleniumallure","seleniumallure","amazonsearch","amazonsearch",""
