@@ -7,10 +7,12 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
+
 public class seleniumallure {
 
+
     @Test
-    public void googlesearch() throws Exception {
+    static void googlesearch() throws Exception {
 
 
         WebDriverManager.chromedriver().setup();
@@ -19,12 +21,7 @@ public class seleniumallure {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
 
-        driver.get("https://www.google.com");
-
-        WebElement searchtext = driver.findElement(By.xpath("//input[@class='gLFyf']"));
-        searchtext.sendKeys("mvnrepository");
-
-        searchtext.submit();
+        driver.get("https://github.com/fescobar/allure-docker-service/blob/master/README.md#single-project---local-reports");
 
         driver.quit();
 
@@ -54,6 +51,7 @@ public class seleniumallure {
         driver.quit();
 
     }
+
     @Test
     public void googlesearch2() throws Exception {
 
@@ -63,13 +61,7 @@ public class seleniumallure {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-
-        driver.get("https://www.google.com");
-
-        WebElement searchtext = driver.findElement(By.xpath("//input[@class='gLFyf']"));
-        searchtext.sendKeys("google");
-
-        searchtext.submit();
+        driver.get("https://translate.google.com/?hl=tr&tab=TT");
 
         driver.quit();
 
