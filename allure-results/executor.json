@@ -1,1 +1,9 @@
-{ "reportName": "default", "buildName": "default #6", "buildOrder": "6", "name": "Automatic Execution", "reportUrl": "../6/index.html", "buildUrl": "", "type": "another" }
+{
+  "reportName": "default",
+  "buildName": "default #12",
+  "buildOrder": "12",
+  "name": "Automatic Execution",
+  "reportUrl": "../12/index.html",
+  "buildUrl": "",
+  "type": "another"
+}

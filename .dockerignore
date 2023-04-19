@@ -1,0 +1,4 @@
+allure-docker-api-usage
+resources
+tests
+stat tmp/qemu--static
