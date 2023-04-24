@@ -67,4 +67,22 @@ public class seleniumallure {
 
     }
 
+
+    @Test
+    public void googlesearch3() throws Exception {
+
+
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
+        driver.get("https://bootswatch.com/");
+
+        driver.findElement(By.xpath("//a[@class='nav-link']")).click();
+
+        driver.quit();
+
+    }
+
 }
