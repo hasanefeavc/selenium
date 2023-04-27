@@ -6,18 +6,16 @@ services:
     environment:
       CHECK_RESULTS_EVERY_SECONDS: 1
       KEEP_HISTORY: 1
-      EMAILABLE_REPORT_CSS_CDN: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.css"
     ports:
       - "5050:5050"
     volumes:
-      - ${PWD}:/app/allure-results
-      - ${PWD}:/app/default-reports
+      - ${PWD}/allure-results:/app/allure-results
+      - ${PWD}/allure-reports:/app/default-reports
 
   allure-ui:
     image: "frankescobar/allure-docker-service-ui"
     environment:
       ALLURE_DOCKER_PUBLIC_API_URL: "http://localhost:5050"
       ALLURE_DOCKER_PUBLIC_API_URL_PREFIX: ""
-      EMAILABLE_REPORT_CSS_CDN: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.css"
     ports:
       - "5252:5252"

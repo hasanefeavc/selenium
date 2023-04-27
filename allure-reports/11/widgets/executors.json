@@ -1,1 +1,11 @@
-[{"name":"Automatic Execution","type":"another","buildOrder":11,"buildName":"default #11","buildUrl":"","reportName":"default","reportUrl":"../11/index.html"}]
+[
+  {
+    "name": "Automatic Execution",
+    "type": "another",
+    "buildOrder": 10,
+    "buildName": "default #10",
+    "buildUrl": "",
+    "reportName": "default",
+    "reportUrl": "../10/index.html"
+  }
+]

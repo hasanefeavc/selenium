@@ -1574,7 +1574,7 @@ variable `SERVER_URL`.
 
 If you want to develop a new template, create a local directory (`my-template` as example) with a file
 named `default.html`. In that file you can create your own html template, you can use as guide this
-example: [allure-docker-api/templates/default.html](allure-docker-api/templates/default.html)
+example: [allure-docker-api/templates/default.html](../allure-docker-api/templates/default.html)
 using [Jinja](https://jinja.palletsprojects.com/en/2.10.x/templates/) syntax. Don't rename your local template, always
 the file must be named `default.html`.
 
