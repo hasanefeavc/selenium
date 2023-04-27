@@ -8,6 +8,10 @@ services:
       KEEP_HISTORY: 1
       EMAILABLE_REPORT_CSS_CDN: "https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.css"
       EMAILABLE_REPORT_TITLE: "efe"
+      SECURITY_USER: "hasanefeavc"
+      SECURITY_PASS: "123"
+      SECURITY_ENABLED: 1
+      SERVER_URL: "https://www.google.com/"
     ports:
       - "5050:5050"
     volumes:
