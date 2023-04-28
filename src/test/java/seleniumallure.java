@@ -79,7 +79,7 @@ public class seleniumallure {
 
         driver.get("https://bootswatch.com/");
 
-        driver.findElement(By.xpath("//a[@clas='nav-link']")).click();
+        driver.findElement(By.xpath("//a[@class='nav-link']")).click();
 
         driver.quit();
 
