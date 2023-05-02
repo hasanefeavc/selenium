@@ -1,9 +1,9 @@
 {
   "reportName": "default",
-  "buildName": "default #45",
-  "buildOrder": "45",
-  "name": "efe",
-  "reportUrl": "../45/index.html",
+  "buildName": "default #46",
+  "buildOrder": "46",
+  "name": "Automatic Execution",
+  "reportUrl": "../46/index.html",
   "buildUrl": "",
-  "type": "jenkins"
+  "type": "another"
 }
